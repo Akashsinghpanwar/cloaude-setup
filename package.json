@@ -1,0 +1,41 @@
+{
+  "name": "vibe-elite",
+  "version": "1.0.0",
+  "description": "One-command elite Claude Code setup — skills, MCP servers, security gates, TDD, and production-grade workflows. Never existed before.",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "vibe-elite": "./bin/cli.js"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "mcp",
+    "ai-coding",
+    "vibe-coding",
+    "elite-setup",
+    "skills",
+    "tdd",
+    "security",
+    "production-grade"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.2.12",
+    "chalk": "^5.3.0",
+    "ora": "^7.0.1",
+    "boxen": "^7.1.1",
+    "gradient-string": "^2.0.2",
+    "figlet": "^1.7.0",
+    "fs-extra": "^11.2.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "skills/"
+  ]
+}
